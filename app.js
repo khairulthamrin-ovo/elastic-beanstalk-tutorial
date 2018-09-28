@@ -15,4 +15,4 @@ app.get('/', (req, res) => {
 app.use(morgan('dev'));
 
 server.listen(port);
-console.log('App running at http://localhost:' + port);
+console.log('App running with travis at http://localhost:' + port);
